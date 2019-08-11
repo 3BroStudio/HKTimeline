@@ -1,0 +1,36 @@
+html, body{
+  margin: 0;
+  overflow-x: hidden;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.quote{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-span{
+  font-size: 8rem;
+}
+
+#timeline{
+  max-width: 1440px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.day{
+
+}
+
+.day-date{
+  position: sticky;
+  top: 15%;
+  left: 0;
+}
